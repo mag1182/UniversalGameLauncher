@@ -41,3 +41,9 @@ D:\Github\UniversalGameLauncher\UniversalGameLauncher\obj\Release\UniversalGameL
 D:\Github\UniversalGameLauncher\UniversalGameLauncher\obj\Release\UniversalGameLauncher.csproj.CopyComplete
 D:\Github\UniversalGameLauncher\UniversalGameLauncher\obj\Release\UniversalGameLauncher.exe
 D:\Github\UniversalGameLauncher\UniversalGameLauncher\obj\Release\UniversalGameLauncher.pdb
+D:\Github\UniversalGameLauncher\UniversalGameLauncher\bin\Release\UniversalGameLauncher.exe.manifest
+D:\Github\UniversalGameLauncher\UniversalGameLauncher\bin\Release\UniversalGameLauncher.application
+D:\Github\UniversalGameLauncher\UniversalGameLauncher\obj\Release\UniversalGameLauncher.Constants.resources
+D:\Github\UniversalGameLauncher\UniversalGameLauncher\obj\Release\UniversalGameLauncher.TrustInfo.xml
+D:\Github\UniversalGameLauncher\UniversalGameLauncher\obj\Release\UniversalGameLauncher.exe.manifest
+D:\Github\UniversalGameLauncher\UniversalGameLauncher\obj\Release\UniversalGameLauncher.application

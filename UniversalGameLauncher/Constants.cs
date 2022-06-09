@@ -55,5 +55,23 @@ namespace UniversalGameLauncher
         public static bool AUTOMATICALLY_LAUNCH_GAME_AFTER_UPDATING = false;
         public static bool SHOW_ERROR_BOX_IF_PATCH_NOTES_DOWNLOAD_FAILS = true;
 
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Constants));
+            this.SuspendLayout();
+            // 
+            // Constants
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(1028, 643);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Location = new System.Drawing.Point(0, 0);
+            this.Name = "Constants";
+            this.Text = "RTP Launcher";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
     }
 }
