@@ -64,9 +64,9 @@
             // updateProgressBar
             // 
             this.updateProgressBar.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.updateProgressBar.Location = new System.Drawing.Point(17, 571);
+            this.updateProgressBar.Location = new System.Drawing.Point(17, 581);
             this.updateProgressBar.Name = "updateProgressBar";
-            this.updateProgressBar.Size = new System.Drawing.Size(802, 60);
+            this.updateProgressBar.Size = new System.Drawing.Size(802, 38);
             this.updateProgressBar.TabIndex = 1;
             this.updateProgressBar.Visible = false;
             // 
@@ -123,7 +123,7 @@
             this.navbarPanel.Controls.Add(this.navbarButton2);
             this.navbarPanel.Location = new System.Drawing.Point(0, -1);
             this.navbarPanel.Name = "navbarPanel";
-            this.navbarPanel.Size = new System.Drawing.Size(1028, 75);
+            this.navbarPanel.Size = new System.Drawing.Size(1028, 71);
             this.navbarPanel.TabIndex = 0;
             // 
             // logoPictureBox
@@ -131,7 +131,7 @@
             this.logoPictureBox.BackColor = System.Drawing.Color.Transparent;
             this.logoPictureBox.Location = new System.Drawing.Point(0, 0);
             this.logoPictureBox.Name = "logoPictureBox";
-            this.logoPictureBox.Size = new System.Drawing.Size(283, 75);
+            this.logoPictureBox.Size = new System.Drawing.Size(316, 72);
             this.logoPictureBox.TabIndex = 2;
             this.logoPictureBox.TabStop = false;
             // 
@@ -235,12 +235,13 @@
             // 
             this.clientReadyLabel.BackColor = System.Drawing.Color.Transparent;
             this.clientReadyLabel.Font = new System.Drawing.Font("Segoe UI", 15.25F);
-            this.clientReadyLabel.Location = new System.Drawing.Point(499, 581);
+            this.clientReadyLabel.Location = new System.Drawing.Point(498, 581);
             this.clientReadyLabel.Name = "clientReadyLabel";
-            this.clientReadyLabel.Size = new System.Drawing.Size(320, 46);
+            this.clientReadyLabel.Size = new System.Drawing.Size(320, 38);
             this.clientReadyLabel.TabIndex = 4;
             this.clientReadyLabel.Text = "Your client is up to date!";
             this.clientReadyLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.clientReadyLabel.Click += new System.EventHandler(this.clientReadyLabel_Click);
             // 
             // patchPanel1
             // 
@@ -255,7 +256,7 @@
             // 
             // patchText1
             // 
-            this.patchText1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
+            this.patchText1.BackColor = System.Drawing.Color.MediumSlateBlue;
             this.patchText1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.patchText1.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.patchText1.ForeColor = System.Drawing.SystemColors.Control;
@@ -266,7 +267,7 @@
             // 
             // patchButton1
             // 
-            this.patchButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
+            this.patchButton1.BackColor = System.Drawing.Color.Indigo;
             this.patchButton1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.patchButton1.FlatAppearance.BorderSize = 0;
             this.patchButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -282,7 +283,7 @@
             // 
             // patchTitle1
             // 
-            this.patchTitle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
+            this.patchTitle1.BackColor = System.Drawing.Color.DarkViolet;
             this.patchTitle1.Font = new System.Drawing.Font("Segoe UI", 15F);
             this.patchTitle1.Location = new System.Drawing.Point(0, 0);
             this.patchTitle1.Name = "patchTitle1";
@@ -304,7 +305,7 @@
             // 
             // patchText2
             // 
-            this.patchText2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
+            this.patchText2.BackColor = System.Drawing.Color.MediumSlateBlue;
             this.patchText2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.patchText2.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.patchText2.ForeColor = System.Drawing.SystemColors.Control;
@@ -315,7 +316,7 @@
             // 
             // patchButton2
             // 
-            this.patchButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
+            this.patchButton2.BackColor = System.Drawing.Color.Indigo;
             this.patchButton2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.patchButton2.FlatAppearance.BorderSize = 0;
             this.patchButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -331,7 +332,7 @@
             // 
             // patchTitle2
             // 
-            this.patchTitle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
+            this.patchTitle2.BackColor = System.Drawing.Color.DarkViolet;
             this.patchTitle2.Font = new System.Drawing.Font("Segoe UI", 15F);
             this.patchTitle2.Location = new System.Drawing.Point(0, 0);
             this.patchTitle2.Name = "patchTitle2";
@@ -353,7 +354,7 @@
             // 
             // patchText3
             // 
-            this.patchText3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
+            this.patchText3.BackColor = System.Drawing.Color.MediumSlateBlue;
             this.patchText3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.patchText3.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.patchText3.ForeColor = System.Drawing.SystemColors.Control;
@@ -364,7 +365,7 @@
             // 
             // patchButton3
             // 
-            this.patchButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
+            this.patchButton3.BackColor = System.Drawing.Color.Indigo;
             this.patchButton3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.patchButton3.FlatAppearance.BorderSize = 0;
             this.patchButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -380,7 +381,7 @@
             // 
             // patchTitle3
             // 
-            this.patchTitle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
+            this.patchTitle3.BackColor = System.Drawing.Color.DarkViolet;
             this.patchTitle3.Font = new System.Drawing.Font("Segoe UI", 15F);
             this.patchTitle3.Location = new System.Drawing.Point(0, 0);
             this.patchTitle3.Name = "patchTitle3";
@@ -391,7 +392,7 @@
             // 
             // patchContainerPanel
             // 
-            this.patchContainerPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
+            this.patchContainerPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(100)))));
             this.patchContainerPanel.Controls.Add(this.label5);
             this.patchContainerPanel.Controls.Add(this.patchPanel2);
             this.patchContainerPanel.Controls.Add(this.patchPanel1);

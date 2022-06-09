@@ -26,3 +26,18 @@ C:\Users\teemu\OneDrive\Tiedostot\Visual Studio 2017\Projects\UniversalGameLaunc
 C:\Users\teemu\OneDrive\Tiedostot\Visual Studio 2017\Projects\UniversalGameLauncher\GameLauncherRepository\UniversalGameLauncher\UniversalGameLauncher\obj\Release\UniversalGameLauncher.csproj.CopyComplete
 C:\Users\teemu\OneDrive\Tiedostot\Visual Studio 2017\Projects\UniversalGameLauncher\GameLauncherRepository\UniversalGameLauncher\UniversalGameLauncher\obj\Release\UniversalGameLauncher.exe
 C:\Users\teemu\OneDrive\Tiedostot\Visual Studio 2017\Projects\UniversalGameLauncher\GameLauncherRepository\UniversalGameLauncher\UniversalGameLauncher\obj\Release\UniversalGameLauncher.pdb
+D:\Github\UniversalGameLauncher\UniversalGameLauncher\bin\Release\UniversalGameLauncher.exe.config
+D:\Github\UniversalGameLauncher\UniversalGameLauncher\bin\Release\UniversalGameLauncher.exe
+D:\Github\UniversalGameLauncher\UniversalGameLauncher\bin\Release\UniversalGameLauncher.pdb
+D:\Github\UniversalGameLauncher\UniversalGameLauncher\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\Github\UniversalGameLauncher\UniversalGameLauncher\bin\Release\ICSharpCode.SharpZipLib.pdb
+D:\Github\UniversalGameLauncher\UniversalGameLauncher\bin\Release\ICSharpCode.SharpZipLib.xml
+D:\Github\UniversalGameLauncher\UniversalGameLauncher\obj\Release\UniversalGameLauncher.csproj.AssemblyReference.cache
+D:\Github\UniversalGameLauncher\UniversalGameLauncher\obj\Release\UniversalGameLauncher.csproj.SuggestedBindingRedirects.cache
+D:\Github\UniversalGameLauncher\UniversalGameLauncher\obj\Release\UniversalGameLauncher.Application.resources
+D:\Github\UniversalGameLauncher\UniversalGameLauncher\obj\Release\UniversalGameLauncher.Properties.Resources.resources
+D:\Github\UniversalGameLauncher\UniversalGameLauncher\obj\Release\UniversalGameLauncher.csproj.GenerateResource.cache
+D:\Github\UniversalGameLauncher\UniversalGameLauncher\obj\Release\UniversalGameLauncher.csproj.CoreCompileInputs.cache
+D:\Github\UniversalGameLauncher\UniversalGameLauncher\obj\Release\UniversalGameLauncher.csproj.CopyComplete
+D:\Github\UniversalGameLauncher\UniversalGameLauncher\obj\Release\UniversalGameLauncher.exe
+D:\Github\UniversalGameLauncher\UniversalGameLauncher\obj\Release\UniversalGameLauncher.pdb

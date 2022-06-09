@@ -5,7 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
 
-namespace UniversalGameLauncher {
+namespace UniversalGameLauncher
+{
     public class PatchNoteBlock {
         
         public string Title { get; set; }

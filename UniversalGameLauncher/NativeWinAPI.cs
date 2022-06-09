@@ -5,7 +5,8 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UniversalGameLauncher {
+namespace UniversalGameLauncher
+{
         internal static class NativeWinAPI {
 
             public const int WM_NCLBUTTONDOWN = 0xA1;

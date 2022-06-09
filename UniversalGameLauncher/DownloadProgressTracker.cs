@@ -4,7 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UniversalGameLauncher {
+namespace UniversalGameLauncher
+{
     public class DownloadProgressTracker {
 
         private long _totalFileSize;

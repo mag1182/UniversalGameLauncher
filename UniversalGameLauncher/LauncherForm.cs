@@ -22,6 +22,8 @@ namespace UniversalGameLauncher {
 
         private List<PatchNoteBlock> patchNoteBlocks = new List<PatchNoteBlock>();
 
+        private bool _isUpdating;
+
         private bool _isReady;
         public bool IsReady {
             get {
@@ -29,7 +31,18 @@ namespace UniversalGameLauncher {
             }
             set {
                 _isReady = value;
-                TogglePlayButton(value);
+                if (_isReady)
+                {
+                    NewTogglePlayButton(1);
+                }
+                else if (!_isReady & _isUpdating)
+                {
+                    NewTogglePlayButton(3);
+                }
+                else
+                {
+                    NewTogglePlayButton(2);
+                }
                 InitializeFooter();
             }
         }
@@ -53,7 +66,6 @@ namespace UniversalGameLauncher {
             IsReady = UpToDate;
 
             _downloadProgressTracker = new DownloadProgressTracker(50, TimeSpan.FromMilliseconds(500));
-
             if (!UpToDate && Constants.AUTOMATICALLY_BEGIN_UPDATING) {
                 DownloadFile();
             }
@@ -148,9 +160,19 @@ namespace UniversalGameLauncher {
 
         private void OnClickPlay(object sender, EventArgs e) {
             if (IsReady) {
-                LaunchGame();
-            } else {
+                if (!_isUpdating) {
+                    LaunchGame();
+                }
+            } 
+            else if (_isUpdating) 
+            {
+                Environment.Exit(0);
+            }
+            
+            else {
                 DownloadFile();
+                _isUpdating = true;
+                NewTogglePlayButton(3);
             }
         }
 
@@ -183,6 +205,7 @@ namespace UniversalGameLauncher {
             updateLabelText.Text = "";
             if (!File.Exists(Constants.GAME_EXECUTABLE_PATH)) {
                 MessageBox.Show("Couldn't make a connection to the game server. Please try again later or inform the developer if the issue persists.", "Fatal error");
+                MessageBox.Show(Constants.GAME_EXECUTABLE_PATH, "Log");
                 return;
             }
 
@@ -190,6 +213,7 @@ namespace UniversalGameLauncher {
             Properties.Settings.Default.VersionText = OnlineVersion.ToString();
             Properties.Settings.Default.Save();
             Console.WriteLine("Updated version. Now running on version: " + LocalVersion);
+            _isUpdating = false;
             IsReady = true;
 
             if (Constants.AUTOMATICALLY_LAUNCH_GAME_AFTER_UPDATING) 
@@ -244,6 +268,7 @@ namespace UniversalGameLauncher {
                 Process.Start(Constants.GAME_EXECUTABLE_PATH);
                 Environment.Exit(0);
             } catch {
+                _isUpdating = true;
                 IsReady = false;
                 DownloadFile();
                 MessageBox.Show("Couldn't locate the game executable! Attempting to redownload - please wait.", "Fatal Error");
@@ -262,7 +287,36 @@ namespace UniversalGameLauncher {
                     break;
             }
         }
-        
+        private void NewTogglePlayButton(int Type)
+        {
+            if (Type == 1 & _isUpdating == false)
+            {
+                playButton.BackColor = Color.Green;
+                playButton.Text = "Play";
+            }
+            else if (Type == 2 & _isUpdating == false)
+            { 
+                playButton.BackColor = Color.DeepSkyBlue;
+                playButton.Text = "Update";
+            }
+            else if (Type == 3 & _isUpdating == true)
+            {
+                playButton.BackColor = Color.DarkRed;
+                playButton.Text = "Cancel";
+            }
+            else if (Type == 4 & _isUpdating == false)
+            {
+                playButton.BackColor = Color.Red;
+                playButton.Text = "Error";
+            }
+            else
+            {
+                playButton.BackColor = Color.Red;
+                playButton.Text = "Error";
+            }
+
+
+        }
         // Move the form with LMB
         private void Application_MouseDown(object sender, MouseEventArgs e) {
             if (e.Button == MouseButtons.Left) {
@@ -327,6 +381,11 @@ namespace UniversalGameLauncher {
 
         private void closePictureBox_Click(object sender, EventArgs e) {
             Environment.Exit(0);
+        }
+
+        private void clientReadyLabel_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

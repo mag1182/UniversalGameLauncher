@@ -6,7 +6,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UniversalGameLauncher {
+namespace UniversalGameLauncher
+{
     class Extract {
 
         private Application _application;

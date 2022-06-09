@@ -8,3 +8,23 @@ c:\users\teemu\onedrive\tiedostot\visual studio 2017\Projects\UniversalGameLaunc
 c:\users\teemu\onedrive\tiedostot\visual studio 2017\Projects\UniversalGameLauncher\UniversalGameLauncher\obj\Debug\UniversalGameLauncher.exe
 c:\users\teemu\onedrive\tiedostot\visual studio 2017\Projects\UniversalGameLauncher\UniversalGameLauncher\obj\Debug\UniversalGameLauncher.pdb
 C:\Users\teemu\OneDrive\Tiedostot\Visual Studio 2017\Projects\UniversalGameLauncher\UniversalGameLauncher\obj\Debug\UniversalGameLauncher.csprojAssemblyReference.cache
+D:\Github\UniversalGameLauncher\UniversalGameLauncher\bin\Debug\UniversalGameLauncher.exe.config
+D:\Github\UniversalGameLauncher\UniversalGameLauncher\bin\Debug\UniversalGameLauncher.exe
+D:\Github\UniversalGameLauncher\UniversalGameLauncher\bin\Debug\UniversalGameLauncher.pdb
+D:\Github\UniversalGameLauncher\UniversalGameLauncher\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Github\UniversalGameLauncher\UniversalGameLauncher\bin\Debug\ICSharpCode.SharpZipLib.pdb
+D:\Github\UniversalGameLauncher\UniversalGameLauncher\bin\Debug\ICSharpCode.SharpZipLib.xml
+D:\Github\UniversalGameLauncher\UniversalGameLauncher\obj\Debug\UniversalGameLauncher.csproj.SuggestedBindingRedirects.cache
+D:\Github\UniversalGameLauncher\UniversalGameLauncher\obj\Debug\UniversalGameLauncher.Application.resources
+D:\Github\UniversalGameLauncher\UniversalGameLauncher\obj\Debug\UniversalGameLauncher.Properties.Resources.resources
+D:\Github\UniversalGameLauncher\UniversalGameLauncher\obj\Debug\UniversalGameLauncher.csproj.GenerateResource.cache
+D:\Github\UniversalGameLauncher\UniversalGameLauncher\obj\Debug\UniversalGameLauncher.csproj.CoreCompileInputs.cache
+D:\Github\UniversalGameLauncher\UniversalGameLauncher\obj\Debug\UniversalGameLauncher.csproj.CopyComplete
+D:\Github\UniversalGameLauncher\UniversalGameLauncher\obj\Debug\UniversalGameLauncher.exe
+D:\Github\UniversalGameLauncher\UniversalGameLauncher\obj\Debug\UniversalGameLauncher.pdb
+D:\Github\UniversalGameLauncher\UniversalGameLauncher\obj\Debug\UniversalGameLauncher.csproj.AssemblyReference.cache
+D:\Github\UniversalGameLauncher\UniversalGameLauncher\bin\Debug\UniversalGameLauncher.exe.manifest
+D:\Github\UniversalGameLauncher\UniversalGameLauncher\bin\Debug\UniversalGameLauncher.application
+D:\Github\UniversalGameLauncher\UniversalGameLauncher\obj\Debug\UniversalGameLauncher.exe.manifest
+D:\Github\UniversalGameLauncher\UniversalGameLauncher\obj\Debug\UniversalGameLauncher.application
+D:\Github\UniversalGameLauncher\UniversalGameLauncher\obj\Debug\UniversalGameLauncher.TrustInfo.xml

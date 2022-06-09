@@ -1,0 +1,11 @@
+D:\Github\UniversalGameLauncher\UniversalGameLauncher\obj\Debug\RTPGameLauncher.csproj.SuggestedBindingRedirects.cache
+D:\Github\UniversalGameLauncher\UniversalGameLauncher\obj\Debug\UniversalGameLauncher.Application.resources
+D:\Github\UniversalGameLauncher\UniversalGameLauncher\obj\Debug\RTPGameLauncher.Properties.Resources.resources
+D:\Github\UniversalGameLauncher\UniversalGameLauncher\obj\Debug\RTPGameLauncher.csproj.GenerateResource.cache
+D:\Github\UniversalGameLauncher\UniversalGameLauncher\obj\Debug\RTPGameLauncher.csproj.CoreCompileInputs.cache
+D:\Github\UniversalGameLauncher\RTPGameLauncher\obj\Debug\RTPGameLauncher.csproj.AssemblyReference.cache
+D:\Github\UniversalGameLauncher\RTPGameLauncher\obj\Debug\RTPGameLauncher.csproj.SuggestedBindingRedirects.cache
+D:\Github\UniversalGameLauncher\RTPGameLauncher\obj\Debug\UniversalGameLauncher.Application.resources
+D:\Github\UniversalGameLauncher\RTPGameLauncher\obj\Debug\RTPGameLauncher.Properties.Resources.resources
+D:\Github\UniversalGameLauncher\RTPGameLauncher\obj\Debug\RTPGameLauncher.csproj.GenerateResource.cache
+D:\Github\UniversalGameLauncher\RTPGameLauncher\obj\Debug\RTPGameLauncher.csproj.CoreCompileInputs.cache

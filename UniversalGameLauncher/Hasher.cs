@@ -2,7 +2,7 @@
 using System.Security.Cryptography;
 using System.Text;
 
-namespace UniversalGameLauncher {
+namespace RTPGameLauncher {
     internal enum HashType {
         MD5,
         SHA1,

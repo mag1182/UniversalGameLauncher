@@ -4,7 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UniversalGameLauncher {
+namespace UniversalGameLauncher
+{
     class StringUtility {
 
         public static string FormatBytes(long byteCount) {
