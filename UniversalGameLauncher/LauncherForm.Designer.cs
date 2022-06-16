@@ -51,6 +51,7 @@
             this.patchContainerPanel = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
             this.playButton = new System.Windows.Forms.Button();
+            this.PlayWUpdate = new System.Windows.Forms.Button();
             this.navbarPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.logoPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.minimizePictureBox)).BeginInit();
@@ -429,6 +430,22 @@
             this.playButton.UseVisualStyleBackColor = false;
             this.playButton.Click += new System.EventHandler(this.OnClickPlay);
             // 
+            // PlayWUpdate
+            // 
+            this.PlayWUpdate.BackColor = System.Drawing.Color.Crimson;
+            this.PlayWUpdate.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.PlayWUpdate.FlatAppearance.BorderSize = 0;
+            this.PlayWUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.PlayWUpdate.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.PlayWUpdate.Location = new System.Drawing.Point(825, 509);
+            this.PlayWUpdate.Name = "PlayWUpdate";
+            this.PlayWUpdate.Size = new System.Drawing.Size(191, 60);
+            this.PlayWUpdate.TabIndex = 5;
+            this.PlayWUpdate.TabStop = false;
+            this.PlayWUpdate.Text = "Play without updating";
+            this.PlayWUpdate.UseVisualStyleBackColor = false;
+            this.PlayWUpdate.Click += new System.EventHandler(this.OnClickPlayWUpdating);
+            // 
             // Application
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -437,6 +454,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1028, 643);
+            this.Controls.Add(this.PlayWUpdate);
             this.Controls.Add(this.patchContainerPanel);
             this.Controls.Add(this.clientReadyLabel);
             this.Controls.Add(this.navbarPanel);
@@ -497,6 +515,7 @@
         private System.Windows.Forms.Panel patchContainerPanel;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.PictureBox logoPictureBox;
+        private System.Windows.Forms.Button PlayWUpdate;
     }
 }
 

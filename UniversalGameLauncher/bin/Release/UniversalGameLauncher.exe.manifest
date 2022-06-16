@@ -55,14 +55,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="UniversalGameLauncher.exe" size="1759200">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="UniversalGameLauncher.exe" size="1759712">
       <assemblyIdentity name="UniversalGameLauncher" version="0.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>1wlGNKx7xDpyamirtUU7LHtAxx+nklsXNC5C85wfwKE=</dsig:DigestValue>
+        <dsig:DigestValue>1a9ZdRZY6efMoZmhZzDEb1491aLNcX+IpNjNoxcpMKc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

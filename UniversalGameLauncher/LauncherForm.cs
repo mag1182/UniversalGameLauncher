@@ -175,7 +175,15 @@ namespace UniversalGameLauncher {
                 NewTogglePlayButton(3);
             }
         }
+        private void OnClickPlayWUpdating(object sender, EventArgs e)
+        {
 
+            if (File.Exists(Constants.GAME_EXECUTABLE_PATH) & !_isUpdating & IsReady)
+            {
+                LaunchGame();
+            }
+
+        }
         private void DownloadFile() {
             using (_webClient = new WebClient()) { 
                 _webClient.DownloadProgressChanged += OnDownloadProgressChanged;
@@ -275,39 +283,23 @@ namespace UniversalGameLauncher {
             }
         }
 
-        private void TogglePlayButton(bool toggle) {
-            switch(toggle) {
-                case true:
-                    playButton.BackColor = Color.Green;
-                    playButton.Text = "Play";
-                    break;
-                case false:
-                    playButton.BackColor = Color.DeepSkyBlue;
-                    playButton.Text = "Update";
-                    break;
-            }
-        }
+        // Change button color and text.
         private void NewTogglePlayButton(int Type)
         {
-            if (Type == 1 & _isUpdating == false)
+            if (Type == 1 & !_isUpdating)
             {
                 playButton.BackColor = Color.Green;
                 playButton.Text = "Play";
             }
-            else if (Type == 2 & _isUpdating == false)
+            else if (Type == 2 & !_isUpdating)
             { 
                 playButton.BackColor = Color.DeepSkyBlue;
                 playButton.Text = "Update";
             }
-            else if (Type == 3 & _isUpdating == true)
+            else if (Type == 3 & _isUpdating)
             {
                 playButton.BackColor = Color.DarkRed;
                 playButton.Text = "Cancel";
-            }
-            else if (Type == 4 & _isUpdating == false)
-            {
-                playButton.BackColor = Color.Red;
-                playButton.Text = "Error";
             }
             else
             {
